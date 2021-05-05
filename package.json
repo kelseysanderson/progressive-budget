@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "description": "App for users to add expenses and deposits to their budget with or without a connection ",
   "scripts": {
-    "seed": "node seeders/seed.js"
+    "seed": "node seeders/seed.js",
+    "start": "node server.js"
   },
   "author": "",
   "license": "ISC",
