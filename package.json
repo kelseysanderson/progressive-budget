@@ -1,12 +1,17 @@
 {
-  "name": "anatomy-of-a-pwa",
+  "name": "progressive-budget",
   "version": "1.0.0",
-  "description": "Details and sample code for building a Progressive Web Application",
-  "main": "db.js",
+  "description": "App for users to add expenses and deposits to their budget with or without a connection ",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "seed": "node seeders/seed.js"
   },
-  "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "compression": "^1.7.4",
+    "express": "^4.16.4",
+    "glob": "^7.1.4",
+    "mongoose": "^5.5.8",
+    "morgan": "^1.10.0"
+  }
 }
